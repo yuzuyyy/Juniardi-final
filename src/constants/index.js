@@ -1,4 +1,4 @@
-import { project1, project2, project3,  socmed1, socmed2, socmed3, socmed4, socmed5,  } from "../assets";
+import { project1, project2, project3,  showcase1,  showcase2,  showcase3,  showcase4,  showcase5,  showcase6,  socmed1, socmed2, socmed3, socmed4, socmed5,  } from "../assets";
 
 export const socmeds = [
     {
@@ -53,32 +53,32 @@ export const services = [
 
 export const projects = [
     {
-        image: project1,
+        image: showcase1,
         title: "Z-Watch",
         description: "Product design"
     },
     {
-        image: project2,
+        image: showcase2,
         title: "Bloom Parfume",
         description: "Product design"
     },
     {
-        image: project3,
+        image: showcase3,
         title: "Bottl ecraft",
         description: "product design"
     },
     {
-        image: project1,
+        image: showcase4,
         title: "Z-Watch",
         description: "Product design"
     },
     {
-        image: project2,
+        image: showcase5,
         title: "Bloom Parfume",
         description: "Product design"
     },
     {
-        image: project3,
+        image: showcase6,
         title: "Bottl ecraft",
         description: "product design"
     },
