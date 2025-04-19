@@ -1,8 +1,9 @@
 <script>
-  import { Nav} from "./lib";
+  import { Nav, Hero} from "./lib";
 
 
 
 
 </script>
 <Nav/>
+<Hero />
