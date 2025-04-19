@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inter:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* ======= Headings ======= */
+  .heading-1 {
+    @apply text-[56px] max-lg:text-[40px] max-md:text-[28px] leading-[1.3em] tracking-[-0.02em] font-semibold;
+  }
+
+  .heading-2 {
+    @apply text-[44px] max-lg:text-[32px] max-md:text-[24px] leading-[1.2em] tracking-[-0.02em] font-semibold;
+  }
+
+  .heading-3 {
+    @apply text-[36px] max-lg:text-[28px] max-md:text-[20px] leading-[1.3em] tracking-[-0.02em] font-semibold;
+  }
+
+  .heading-4 {
+    @apply text-[28px] max-lg:text-[24px] max-md:text-[20px] leading-[1.4em] tracking-[-0.02em] font-semibold;
+  }
+
+  .heading-5 {
+    @apply text-[24px] max-lg:text-[22px] max-md:text-[20px] leading-[1.5em] tracking-[-0.02em] font-semibold;
+  }
+
+  .heading-6 {
+    @apply text-[20px] max-lg:text-[18px] max-md:text-[16px] leading-[1.5em] tracking-[-0.02em] font-semibold;
+  }
+
+  /* ======= Body & Text Styles ======= */
+  .body-1 {
+    @apply text-[18px] max-lg:text-[16px] max-md:text-[14px] leading-[1.5em] tracking-[-0.02em] font-normal;
+  }
+
+  .body-2 {
+    @apply text-[14px] leading-[1.5em] tracking-[-0.01em] font-normal text-gray-800;
+  }
+
+  .label {
+    @apply text-[14px] leading-[1.3em] tracking-[-0.01em] font-medium text-black;
+  }
+
+  .caption {
+    @apply text-[12px] leading-[1.4em] tracking-normal font-normal text-gray-600;
+  }
+
+  .overline {
+    @apply uppercase text-[10px] leading-[1.3em] tracking-[0.05em] font-medium text-gray-500;
+  }
+
+  .pill-text {
+    @apply capitalize text-[32px] max-lg:text-[34px] max-md:text-[23px] leading-[1em] max-md:leading-[22px] tracking-[-0.04em] font-semibold text-center;
+  }
+
+  .button-text {
+    @apply text-[16px] leading-[24px] tracking-[-0.04em] font-semibold;
+  }
+
+  /* ======= Universal Section Padding ======= */
+  .section-padding {
+    @apply pt-[120px] pb-[24px] max-lg:pt-[80px] max-lg:pb-[24px] max-md:pt-[64px] max-md:pb-[24px];
+  }
+
+  .hero-section-padding {
+    @apply pt-[120px] pb-[24px]  max-md:pt-[80px];
+  }
+
+  /* ======= Layout Helpers ======= */
+  .padding-y {
+    @apply py-[64px] max-lg:py-[32px] max-md:py-[16px];
+  }
+
+  .padding-x {
+    @apply px-[64px] max-lg:px-[32px] max-md:px-[16px];
+  }
+
+  .section-container {
+    @apply mx-auto max-w-[1200px];
+  }
+}
