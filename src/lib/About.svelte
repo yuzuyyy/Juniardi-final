@@ -48,14 +48,11 @@
   
         <FadeIn>
           <div class="flex flex-col lg:min-h-[280px] h-fit pt-[16px] gap-[10px]">
-            <h2 class="heading-2 text-white">[About me]</h2>
+            <h2 class="heading-2 text-white">[Vision]</h2>
             <p class="body-1 text-white/80 md:max-lg:max-w-[480px]">
-              Design, for me, goes beyond solving problems. It's about improving
-              user experiences, striking the perfect balance between aesthetics
-              and functionality, and even creating products that form emotional
-              connections with users.
+              To create design experiences that are not only visually captivating, but also meaningful, functional, and capable of connecting people with technology in a harmonious way.
             </p>
-            <p class="heading-5 text-white">Signature/</p>
+            
           </div>
         </FadeIn>
       </div>
