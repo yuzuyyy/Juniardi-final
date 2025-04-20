@@ -6,7 +6,7 @@
     import Marquee from "svelte-fast-marquee";
 </script>
 
-<section class="bg-black section-padding">
+<section id="review" class="bg-black section-padding">
     <div class="section-container flex flex-col gap-[40px]">
         <h2 class="heading-2 text-white">[What my clients say]</h2>
 
