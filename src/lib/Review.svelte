@@ -11,17 +11,17 @@
         <h2 class="heading-2 text-white">[What my clients say]</h2>
 
         <!-- ticker -->
-        <div class="flex flex-col  max-lg:hidden">
+        <div class="flex flex-col max-md:gap-[40px]">
 
             <div class="w-full py-2 lg:py-8 relative overflow-hidden section-container ">
                 <!-- Left fade -->
                 <div
-                  class="absolute left-0 top-0 h-full w-[200px] z-10 bg-gradient-to-r from-black to-transparent pointer-events-none"
+                  class="absolute left-0 top-0 h-full w-[200px] max-md:w-[60px] z-10 bg-gradient-to-r from-black to-transparent pointer-events-none"
                 ></div>
             
                 <!-- Right fade -->
                 <div
-                  class="absolute right-0 top-0 h-full w-[200px] z-10 bg-gradient-to-l from-black to-transparent pointer-events-none"
+                  class="absolute right-0 top-0 h-full w-[200px] max-md:w-[60px] z-10 bg-gradient-to-l from-black to-transparent pointer-events-none"
                 ></div>
             
                 <Marquee pauseOnHover speed={60} class="w-full gap-2">
@@ -39,12 +39,12 @@
               <div class="w-full py-2 lg:py-8 relative overflow-hidden section-container -mt-3 ">
                 <!-- Left fade -->
                 <div
-                  class="absolute left-0 top-0 h-full w-[200px] z-10 bg-gradient-to-r from-black to-transparent pointer-events-none"
+                  class="absolute left-0 top-0 h-full w-[200px] max-md:w-[60px] z-10 bg-gradient-to-r from-black to-transparent pointer-events-none"
                 ></div>
             
                 <!-- Right fade -->
                 <div
-                  class="absolute right-0 top-0 h-full w-[200px] z-10 bg-gradient-to-l from-black to-transparent pointer-events-none"
+                  class="absolute right-0 top-0 h-full w-[200px] max-md:w-[60px] z-10 bg-gradient-to-l from-black to-transparent pointer-events-none"
                 ></div>
             
                 <Marquee pauseOnHover speed={60} direction={"right"} class="w-full gap-2">
@@ -63,7 +63,7 @@
         </div>
 
         <!-- mobile grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24px] lg:hidden">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24px] hidden">
             {#each reviews.slice(0,4) as review}
                 <FadeIn>
                     <ReviewCard
