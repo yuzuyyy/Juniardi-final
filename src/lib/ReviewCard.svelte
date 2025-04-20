@@ -8,7 +8,7 @@
     export let amount = 0; // Default to 0 stars
   </script>
   
-  <div class="lg:max-w-[400px] min-h-[280px] max-lg:w-[280px] bg-white/10 rounded-lg max-md:rounded-3xl shadow-md p-6 mx-auto backdrop-blur-sm">
+  <div class="lg:max-w-[400px] min-h-[280px] max-lg:w-[320px] bg-white/10 rounded-lg max-md:rounded-3xl shadow-md p-6 mx-auto backdrop-blur-sm">
     <!-- Photo -->
     <div class="flex justify-center mb-4">
       <img 
