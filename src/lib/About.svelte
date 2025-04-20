@@ -1,5 +1,5 @@
 <script>
-    import { highlight1, highlight2, project1, project2 } from "../assets";
+    import { highlight1, highlight2, hw, project1, project2, vision } from "../assets";
     import { stats } from "../constants";
     import { Number } from "./";
     import { FadeIn } from "./";
@@ -32,17 +32,17 @@
   
         <FadeIn delay={100}>
           <img
-            class="grayscale rounded-3xl max-h-[240px] w-full rounded-2xl"
-            src={highlight2}
-            alt={highlight2}
+            class="grayscale aspect-video rounded-3xl max-h-[240px] w-full rounded-2xl"
+            src={hw}
+            alt={hw}
           />
         </FadeIn>
   
         <FadeIn delay={200}>
           <img
-            class="grayscale rounded-3xl max-h-[240px] w-full rounded-2xl"
-            src={highlight1}
-            alt={highlight1}
+            class="grayscale aspect-video rounded-3xl max-h-[240px] w-full rounded-2xl"
+            src={vision}
+            alt={vision}
           />
         </FadeIn>
   

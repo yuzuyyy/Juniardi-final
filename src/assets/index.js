@@ -27,6 +27,8 @@ import logo5 from './logo5.png'
 import logo6 from './logo6.png'
 import logo7 from './logo7.png'
 import logo8 from './logo8.png'
+import vision from './vision.jpg'
+import hw from './hw.png'
 
 export {
     svelte,
@@ -57,5 +59,7 @@ export {
     logo5,
     logo6,
     logo7,
-    logo8
+    logo8,
+    vision,
+    hw
 }
