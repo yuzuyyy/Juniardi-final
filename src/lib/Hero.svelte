@@ -5,7 +5,7 @@
 </script>
 
 <section id="home"
-  class="relative lg:min-h-screen bg-primary hero-section-padding flex flex-col items-center gap-[10px] pt-[20px]"
+  class="relative lg:min-h-screen bg-primary hero-section-padding flex flex-col items-center gap-[10px] md:pt-[80px] lg:pt-[20px]"
 >
   <div class="section-container w-full">
     
