@@ -1,5 +1,6 @@
 <script>
-  import { Nav, Hero, About, Ticker, Project, Footer} from "./lib";
+  import { Nav, Hero, About, Ticker, Project, Review, Footer} from "./lib";
+    import ReviewCard from "./lib/ReviewCard.svelte";
 
     
 
@@ -12,4 +13,5 @@
 <About />
 <Ticker />
 <Project />
+<Review />
 <Footer/>

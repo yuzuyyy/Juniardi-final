@@ -29,6 +29,7 @@ import logo7 from './logo7.png'
 import logo8 from './logo8.png'
 import vision from './vision.jpg'
 import hw from './hw.png'
+import star from './star.svg'
 
 export {
     svelte,
@@ -61,5 +62,7 @@ export {
     logo7,
     logo8,
     vision,
-    hw
+    hw,
+    star
+
 }

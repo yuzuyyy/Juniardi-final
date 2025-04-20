@@ -103,3 +103,51 @@ export const logos = [
     logo7,
     logo8
 ]
+
+// src/constants/reviews.js
+import { hero, star } from '../assets';
+
+export const reviews = [
+  {
+    photo: hero, // Menggunakan foto default
+    name: "John Doe",
+    role: "Product Manager",
+    comment: "This product completely transformed our workflow. The efficiency gains are incredible!",
+    amount: 5
+  },
+  {
+    photo: hero, // Diubah ke foto default
+    name: "Sarah Johnson",
+    role: "UX Designer",
+    comment: "Beautiful design and intuitive interface. Our users love it!",
+    amount: 4
+  },
+  {
+    photo: hero,
+    name: "Michael Chen",
+    role: "CTO at TechCorp",
+    comment: "The technical implementation is rock solid. Highly recommended for enterprise use.",
+    amount: 5
+  },
+  {
+    photo: hero, // Diubah ke foto default
+    name: "Emily Wilson",
+    role: "Marketing Director",
+    comment: "Our conversion rates improved by 30% after implementing this solution.",
+    amount: 4
+  },
+  {
+    photo: hero,
+    name: "David Kim",
+    role: "",
+    comment: "Simply outstanding service and support. Will definitely purchase again.",
+    amount: 5
+  },
+  {
+    photo: hero, // Diubah ke foto default
+    name: "Lisa Rodriguez",
+    role: "Small Business Owner",
+    comment: "Affordable yet powerful. Perfect for businesses like mine.",
+    amount: 3
+  }
+];

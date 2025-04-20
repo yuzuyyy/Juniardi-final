@@ -11,9 +11,8 @@ import ProjectCard from './ProjectCard.svelte'
 import Project from './Project.svelte'
 import Footer from './Footer.svelte'
 import ToggleMenu from './ToggleMenu.svelte'
-// import Counter from './Counter.svelte'
-// import Button from './MainButton.svelte'
-// import ListItem from './ListItem.svelte'
+import ReviewCard from './ReviewCard.svelte'
+import Review from './Review.svelte'
 export {
     Nav,
     ToggleMenu,
@@ -27,6 +26,7 @@ export {
     Ticker,
     ProjectCard,
     Project,
-    Footer
-  
+    Footer,
+    ReviewCard,
+    Review
 }
