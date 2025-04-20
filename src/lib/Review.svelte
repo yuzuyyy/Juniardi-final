@@ -11,7 +11,7 @@
         <h2 class="heading-2 text-white">[What my clients say]</h2>
 
         <!-- ticker -->
-        <div class="flex flex-col max-md:gap-[40px]">
+        <div class="flex flex-col max-md:gap-[40px] max-lg:hidden">
 
             <div class="w-full py-2 lg:py-8 relative overflow-hidden section-container ">
                 <!-- Left fade -->
@@ -63,7 +63,7 @@
         </div>
 
         <!-- mobile grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24px] hidden">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24px] lg:hidden">
             {#each reviews.slice(0,4) as review}
                 <FadeIn>
                     <ReviewCard
