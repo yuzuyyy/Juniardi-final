@@ -11,12 +11,12 @@
 
 <nav class="fixed z-50 bg-primary w-full top-0 padding-x py-[10px]">
     <div class="relative section-container flex items-center justify-between">
-        <div>
+        <div class="flex lg:min-w-[120px] ">
             <a href="/" class="font-alfa text-3xl uppercase">hw</a>
         </div>
 
         <!-- Desktop Nav -->
-        <div class="flex items-center gap-[40px] text-normal max-md:hidden  rounded-full">
+        <div class="flex items-center gap-[60px] text-normal max-md:hidden  rounded-full">
             {#each navItems as item}
                 <NavItem black={true} {...item} />
             {/each}

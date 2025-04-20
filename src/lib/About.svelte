@@ -74,7 +74,7 @@
   
         <FadeIn delay={100}>
           <img
-            class="grayscale aspect-video rounded-3xl max-h-[240px] w-full rounded-2xl"
+            class="grayscale aspect-video rounded-3xl max-h-[280px] w-full rounded-2xl"
             src={hw}
             alt={hw}
           />
@@ -92,7 +92,7 @@
   
         <FadeIn delay={200}>
           <img
-            class="grayscale aspect-video rounded-3xl max-h-[240px] w-full rounded-2xl"
+            class="grayscale aspect-video rounded-3xl max-h-[280px] w-full rounded-2xl"
             src={vision}
             alt={vision}
           />
