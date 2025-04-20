@@ -21,7 +21,7 @@
         <!-- Loop isi logos 4x agar marquee panjang dan mulus -->
         {#each logos as logo}
           <div class="flex items-center gap-12">
-            <img class="h-12 mx-12" src={logo} alt="logo {i}" />
+            <img class="h-12 mx-12 aspect-video object-cover" src={logo} alt="logo {i}" />
           </div>
         {/each}
       {/each}

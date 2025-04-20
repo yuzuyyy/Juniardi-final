@@ -99,7 +99,7 @@ export const logos = [
     logo3,
     logo4,
     logo5,
-    logo6,
+    // logo6,
     logo7,
     logo8
 ]
