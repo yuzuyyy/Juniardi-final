@@ -6,7 +6,7 @@
   
   <button
    
-    class={`bg-black text-white flex items-center justify-center px-6 py-2 rounded-xl hover:bg-white hover:text-black border border-black transition-all duration-300 ease-in-out ${className}`}
+    class={`bg-black text-white flex items-center justify-center px-6 py-2 rounded-xl hover:bg-white hover:text-black border border-black transition-all duration-700 ease-in-out ${className}`}
     on:click={onClick}
   >
     <slot />
