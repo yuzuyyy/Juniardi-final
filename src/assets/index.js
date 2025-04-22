@@ -30,6 +30,12 @@ import logo8 from './logo8.png'
 import vision from './vision.jpg'
 import hw from './hw.png'
 import star from './star.svg'
+import person1 from './person1.jpeg'
+import person2 from './person2.png'
+import person3 from './person3.jpeg'
+import person4 from './person4.png'
+import person5 from './person5.png'
+
 
 export {
     svelte,
@@ -63,6 +69,11 @@ export {
     logo8,
     vision,
     hw,
-    star
+    star,
+    person1,
+    person2,
+    person3,
+    person4,
+    person5
 
 }

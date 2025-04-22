@@ -1,4 +1,4 @@
-import { logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, project1, project2, project3,  showcase1,  showcase2,  showcase3,  showcase4,  showcase5,  showcase6,  socmed1, socmed2, socmed3, socmed4, socmed5,  } from "../assets";
+import { logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, person1, person2, person3, person4, person5, project1, project2, project3,  showcase1,  showcase2,  showcase3,  showcase4,  showcase5,  showcase6,  socmed1, socmed2, socmed3, socmed4, socmed5,  } from "../assets";
 
 export const socmeds = [
     {
@@ -54,32 +54,32 @@ export const services = [
 export const projects = [
     {
         image: showcase1,
-        title: "Z-Watch",
+        title: "Product1",
         description: "Product design"
     },
     {
         image: showcase2,
-        title: "Bloom Parfume",
+        title: "Product2",
         description: "Product design"
     },
     {
         image: showcase3,
-        title: "Bottl ecraft",
+        title: "Product3",
         description: "product design"
     },
     {
         image: showcase4,
-        title: "Z-Watch",
+        title: "Product4",
         description: "Product design"
     },
     {
         image: showcase5,
-        title: "Bloom Parfume",
+        title: "Product5",
         description: "Product design"
     },
     {
         image: showcase6,
-        title: "Bottl ecraft",
+        title: "Product6",
         description: "product design"
     },
 ];
@@ -110,35 +110,35 @@ import { hero, star } from '../assets';
 
 export const reviews = [
   {
-    photo: hero, // Menggunakan foto default
-    name: "John Doe",
+    photo: person1, // Menggunakan foto default
+    name: "John vincent",
     role: "Product Manager",
     comment: "This product completely transformed our workflow. The efficiency gains are incredible!",
     amount: 5
   },
   {
-    photo: hero, // Diubah ke foto default
-    name: "Sarah Johnson",
+    photo: person2, // Diubah ke foto default
+    name: "William Johnson",
     role: "UX Designer",
     comment: "Beautiful design and intuitive interface. Our users love it!",
     amount: 4
   },
   {
-    photo: hero,
+    photo: person4,
     name: "Michael Chen",
     role: "CTO at TechCorp",
     comment: "The technical implementation is rock solid. Highly recommended for enterprise use.",
     amount: 5
   },
   {
-    photo: hero, // Diubah ke foto default
+    photo: person5, // Diubah ke foto default
     name: "Emily Wilson",
     role: "Marketing Director",
     comment: "Our conversion rates improved by 30% after implementing this solution.",
     amount: 4
   },
   {
-    photo: hero,
+    photo: person3,
     name: "David Kim",
     role: "",
     comment: "Simply outstanding service and support. Will definitely purchase again.",
