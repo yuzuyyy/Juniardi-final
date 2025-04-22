@@ -132,7 +132,7 @@ export const reviews = [
   },
   {
     photo: person5, // Diubah ke foto default
-    name: "Emily Wilson",
+    name: "Edwin Wilson",
     role: "Marketing Director",
     comment: "Our conversion rates improved by 30% after implementing this solution.",
     amount: 4
