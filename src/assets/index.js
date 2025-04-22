@@ -35,6 +35,7 @@ import person2 from './person2.png'
 import person3 from './person3.jpeg'
 import person4 from './person4.png'
 import person5 from './person5.png'
+import person6 from './person6.png'
 
 
 export {
@@ -74,6 +75,6 @@ export {
     person2,
     person3,
     person4,
-    person5
-
+    person5,
+    person6
 }

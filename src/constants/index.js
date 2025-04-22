@@ -1,4 +1,4 @@
-import { logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, person1, person2, person3, person4, person5, project1, project2, project3,  showcase1,  showcase2,  showcase3,  showcase4,  showcase5,  showcase6,  socmed1, socmed2, socmed3, socmed4, socmed5,  } from "../assets";
+import { logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, person1, person2, person3, person4, person5, person6, project1, project2, project3,  showcase1,  showcase2,  showcase3,  showcase4,  showcase5,  showcase6,  socmed1, socmed2, socmed3, socmed4, socmed5,  } from "../assets";
 
 export const socmeds = [
     {
@@ -145,8 +145,8 @@ export const reviews = [
     amount: 5
   },
   {
-    photo: hero, // Diubah ke foto default
-    name: "Lisa Rodriguez",
+    photo: person6, // Diubah ke foto default
+    name: "Josh Rodriguez",
     role: "Small Business Owner",
     comment: "Affordable yet powerful. Perfect for businesses like mine.",
     amount: 3

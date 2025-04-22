@@ -1,23 +1,35 @@
 <script>
   import { onMount } from 'svelte';
-  import { slide, fade } from 'svelte/transition';
+  import { cubicOut } from 'svelte/easing';
 
-  export let delay = 0;       // delay animasi transition
-  export let duration = 1000; // durasi animasi
-  export let wait = 300;      // tambahan delay sebelum animasi dimulai
+  export let duration = 500;
+  export let wait = 200;
 
   let el;
   let isVisible = false;
   let show = false;
+
+  // Custom transition: fade + slide ringan
+  function fadeSlide(node, { delay = 0, duration = 400, easing = cubicOut }) {
+    return {
+      delay,
+      duration,
+      easing,
+      css: t => `
+        opacity: ${t};
+        transform: translateY(${(1 - t) * 15}px);
+      `
+    };
+  }
 
   onMount(() => {
     const observer = new IntersectionObserver(
       async ([entry]) => {
         if (entry.isIntersecting && !isVisible) {
           isVisible = true;
-          await new Promise((res) => setTimeout(res, wait));
+          await new Promise(res => setTimeout(res, wait));
           show = true;
-          observer.disconnect();
+          observer.disconnect(); // ⛔ stop observing setelah animasi pertama
         }
       },
       { threshold: 0.3 }
@@ -29,10 +41,14 @@
 
 <div bind:this={el}>
   {#if show}
-    <div transition:fade={{ delay, duration }}>
-      <div transition:slide={{ delay, duration }}>
-        <slot />
-      </div>
+    <div in:fadeSlide={{ duration }}>
+      <slot />
     </div>
   {/if}
 </div>
+
+<style>
+  div {
+    will-change: opacity, transform;
+  }
+</style>
