@@ -1,6 +1,6 @@
 <script>
   import {  IconBox, MainButton } from ".";
-  import { hero } from "../assets";
+  import { hero, svelte } from "../assets";
   import { socmeds } from "../constants";
 </script>
 
@@ -76,5 +76,9 @@
       <!-- mobile content end -->
     </div>
     <!-- mobile content start-->
+  </div>
+
+  <div class="fixed z-50 bottom-4 right-4 py-2 px-4 bg-black flex item-center justify-center rounded-xl gap-1 text-white font-semibold  border-3 border-primary">
+  <span class="text-primary font-bold">Hendz</span> x Svelte <img class="h-6" src={svelte}>
   </div>
 </section>
