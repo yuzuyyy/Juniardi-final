@@ -8,7 +8,7 @@
     export let amount = 0; // Default to 0 stars
   </script>
   
-  <div class="lg:max-w-[400px] min-h-[280px] max-lg:w-full bg-white/10 rounded-lg max-md:rounded-3xl shadow-md p-6 mx-auto backdrop-blur-sm">
+  <div class="lg:max-w-[400px] min-h-[320px] max-lg:w-full bg-white/10 rounded-lg max-md:rounded-3xl shadow-md p-6 mx-auto backdrop-blur-sm">
     <!-- Photo -->
     <div class="flex justify-center mb-4">
       <img 
@@ -28,14 +28,14 @@
     
     <!-- Comment -->
     {#if comment}
-      <p class="text-white/80 text-center body-2 leading-[1em] mb-4 italic">
+      <p class="text-white/80 text-center body-2 leading-[1em] mb-4 italic ">
         "{comment}"
       </p>
     {/if}
     
     <!-- Stars - only show if star > 0 -->
     {#if amount > 0}
-      <div class="flex justify-center">
+      <div class="flex justify-center self-end">
         {#each Array(5) as _, i}
           <img 
             src={star} 
