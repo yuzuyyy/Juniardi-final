@@ -1,18 +1,24 @@
-<script>
+<script lang="ts">
   import { onMount } from 'svelte';
   import { cubicOut } from 'svelte/easing';
 
-  export let duration = 500;
-  export let wait = 200;
+  export let delay: number = 0;
+  export let duration: number = 500;
+  export let wait: number = 200;
 
-  let el;
+  let el: HTMLElement;
   let isVisible = false;
   let show = false;
 
-  // Custom transition: fade + slide ringan
-  function fadeSlide(node, { delay = 0, duration = 400, easing = cubicOut }) {
+  function fadeSlide(node: HTMLElement, opts = {}) {
+    const { delay: d = delay, duration = 400, easing = cubicOut } = opts as {
+      delay?: number;
+      duration?: number;
+      easing?: (t: number) => number;
+    };
+
     return {
-      delay,
+      delay: d,
       duration,
       easing,
       css: t => `
@@ -29,7 +35,7 @@
           isVisible = true;
           await new Promise(res => setTimeout(res, wait));
           show = true;
-          observer.disconnect(); // ⛔ stop observing setelah animasi pertama
+          observer.disconnect();
         }
       },
       { threshold: 0.3 }
@@ -41,7 +47,7 @@
 
 <div bind:this={el}>
   {#if show}
-    <div in:fadeSlide={{ duration }}>
+    <div in:fadeSlide={{ delay, duration }}>
       <slot />
     </div>
   {/if}
